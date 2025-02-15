@@ -1,0 +1,167 @@
+.lxgw-wenkai-mono-tc-regular {
+    font-family: "LXGW WenKai Mono TC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.pictures {
+    display: flex;
+    justify-content: space-between; /* 可以使用 space-between, center, 或 flex-start 等方式控制間距 */
+}
+
+.pictures img {
+    max-width:100%;
+    width: 33%; /* 設定圖片的寬度，這樣它們會平分空間 */
+    height: auto; /* 保持圖片的比例 */
+}
+
+body{
+    margin: 19%;  /* 設定外邊距為 19% */
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+a {
+    color: #000000;  /* 設置文字顏色 */
+    text-decoration: none;  /* 去掉連結的下劃線 */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #ffdada;
+
+}
+
+.header {
+    margin-right: 20%; /* 調整 header 與 menu 之間的間距 */
+    margin-left:2%;
+
+}
+
+.AboutUs {
+    line-height:250%;
+    margin-left:15%;
+    margin-top: 4.5%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;  /* 使用 Flexbox 佈局 */
+    padding: 0; /* 移除預設的內邊距 */
+    justify-content: space-between;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 3vw;
+
+}
+
+.intro{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:5%;
+
+}
+
+.intro li{
+    margin-left:1%;
+    margin:2%;
+}
+
+.container2, .intro{
+    display: flex;
+    flex-direction: row-reverse; /* 讓內容反轉排列 */
+    align-items: center;
+    white-space: nowrap;    /*適用於 flexbox（防止內容自動換行）*/
+    gap:10%;    /*.container2 已經設為 display: flex;可以直接用 gap 來調整 img 和 .intro 的距離 */
+}
+.container2 img{
+    max-width:100%;
+    width: 25%; /* 設定圖片的寬度*/
+    height: auto; /* 保持圖片的比例 */
+    margin-right:20%;
+}
+
+
+h2{
+    font-size: 120%;
+    margin:1.5%
+    
+}
+/* .redColor{
+    color: #000000;  設置文字顏色
+/*  */
+
+.blackColor{
+    color: #000000;  /* 設置文字顏色 */
+}
+
+h3{
+    font-size: 120%;
+    margin: 2%;  /* 設定外邊距為 20% */
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h4{ 
+    font-size: 90%;
+    font-family: '標楷體';
+    font-weight: normal; /* 取消粗體 */
+    margin:1%
+}
+
+h5{
+    font-size: 100%;
+}
+
+/* .course{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; 讓內容置中 */
+/* } */
+
+.CoursesPictures{
+    display: flex;
+    justify-content: center; /* 可以使用 space-between, center垂直置中, 或 flex-start 等方式控制間距 */
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.CoursesPictures h5{
+    margin-left: 10%;
+}
+
+.CoursesPictures img{            
+    max-width:100%;
+    width: 60%; /* 設定圖片的寬度，這樣它們會平分空間 */
+    height: auto; /* 保持圖片的比例 */
+}
+
+p {
+    margin-top: 90%;  /* 調整p頂部的間隔 */
+    margin:1%;
+}
+
+.footer{
+    background-color: #ffffff;
+
+}
+.image-button{
+    width: 6%;  /* 設定按鈕寬度 */
+    height: auto;  /* 設定按鈕高度 */
+    padding: 0;    /* 移除內邊距 */
+    border: none;  /* 移除邊框 */
+    background: none; /* 移除背景 */
+    cursor: pointer;  /* 滑鼠指標變為手形 */
+    margin: 1%
+}
+
+ .image-button img {
+    width: 100%;  /* 圖片寬度佔滿按鈕 */
+    height: 100%; /* 圖片高度佔滿按鈕 */
+    display: block; /* 移除圖片下方可能的空白間距 */
+}
+
